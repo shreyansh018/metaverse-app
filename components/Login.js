@@ -19,14 +19,14 @@ function Login() {
         {/*Login button*/}
         <button
           onClick={authenticate}
-          className="bg-yellow-500 rounded-lg p-5 font-bold animate-pulse"
+          className="bg-purple-700 rounded-lg p-5 font-bold animate-pulse"
         >
           Login to the Metaverse
         </button>
       </div>
 
       <div className="w-full h-screen">
-        <Image src="/metaverse.png" layout="fill" objectFit="cover" />
+        <Image src="/metaverse.jpg" layout="fill" objectFit="cover" />
       </div>
     </div>
   );
